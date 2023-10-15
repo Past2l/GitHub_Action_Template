@@ -24,10 +24,11 @@ NodeJS 예제코드가 포함되어 있습니다.
 GHCR_TOKEN= # GHCR 토큰
 SSH_HOST= # SSH 연결 주소
 SSH_PORT= # SSH 연결 포트
-SSH_USER= # SSH 유저 이름
-SSH_PASSWORD= # SSH 유저 비밀번호, Optional
+SSH_USER= # SSH 사용자 이름
+SSH_PASSWORD= # SSH 사용자 비밀번호, Optional
 SSH_KEY= # SSH 접속 비밀키, Optional
 ```
 
 ## 주의 사항
-- Host 포트와 Container 포트를 변경할 경우에 `.github/workflows/*.yml` 파일을 직접 수정해야합니다.
+- Host 포트와 Container 포트를 변경할 경우에 `.github/workflows/*.yml` 파일을 직접 수정해야 합니다.
+- SSH 서버에 Docker가 설치되어 있어야 합니다.
